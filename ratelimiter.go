@@ -42,7 +42,7 @@ func (r *RateLimiter) Reset() {
 	r.len = 0
 }
 
-// Accept return true when the event that occured now is accepted.
+// Accept return true when the event that occurred now is accepted.
 // It purges the queue from outdated event time stamps.
 func (r *RateLimiter) Accept() bool {
 	r.mtx.Lock()
@@ -50,7 +50,7 @@ func (r *RateLimiter) Accept() bool {
 	return r.accept(time.Now().UnixNano())
 }
 
-// Reject return true when the event that occured now is not accepted.
+// Reject return true when the event that occurred now is not accepted.
 // It purges the queue from outdated event time stamps.
 func (r *RateLimiter) Reject() bool {
 	r.mtx.Lock()
