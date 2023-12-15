@@ -1,7 +1,7 @@
 [![GoDoc](https://img.shields.io/badge/go.dev-reference-blue)](https://pkg.go.dev/github.com/chmike/ratelimiter)
 ![Build](https://github.com/chmike/ratelimiter/actions/workflows/audit.yml/badge.svg)
 [![Coverage](https://codecov.io/gh/chmike/ratelimiter/graph/badge.svg?token=06TJPZ1S5J)](https://codecov.io/gh/chmike/ratelimiter)
-[![Go Report](https://goreportcard.com/badge/github.com/chmike/ratelimiter)](https://goreportcard.com/report/github.com/chmike/ratelimiter)
+[![Go Report](https://goreportcard.com/badge/github.com/chmike/rateLimiter)](https://goreportcard.com/report/github.com/chmike/rateLimiter)
 ![Status](https://img.shields.io/badge/status-beta-orange)
 ![release](https://img.shields.io/github/release/chmike/ratelimiter.svg)
 
